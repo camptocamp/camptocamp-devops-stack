@@ -5,4 +5,10 @@ $ terraform init
 $ terraform apply
 ```
 
-You should see the services URL as Terraform outputs.
+You should see the services URL as Terraform outputs:
+
+* alertmanager_url
+* argocd_url
+* grafana_url
+* keycloak_url
+* prometheus_url
