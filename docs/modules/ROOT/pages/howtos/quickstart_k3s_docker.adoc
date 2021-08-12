@@ -60,6 +60,8 @@ include::partial$k3s_kubeconfig_keycloak.adoc[]
 
 include::partial$wait_for_keycloak.adoc[]
 
+include::partial$k3s_argocd_grafana.adoc[]
+
 include::partial$inspect_apps.adoc[]
 
 include::partial$access_keycloak.adoc[]
