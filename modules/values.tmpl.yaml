@@ -49,6 +49,8 @@ apps:
     enabled: ${ can(metrics_archives.bucket_config) ? true : false }
   cluster-autoscaler:
     enabled: ${cluster_autoscaler.enable}
+  velero:
+    enabled: false
 
 ${yamlencode({"extraApps": extra_apps})}
 ${yamlencode({"extraAppProjects": extra_app_projects})}
@@ -502,3 +504,5 @@ thanos:
 %{ if cluster_autoscaler.enable }
 cluster-autoscaler: {}
 %{ endif }
+
+velero: {}
