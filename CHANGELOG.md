@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.49.0](https://www.github.com/camptocamp/devops-stack/compare/v0.48.0...v0.49.0) (2021-09-23)
+
+
+### Features
+
+* **keycloak:** pass a user list to keycloak ([#788](https://www.github.com/camptocamp/devops-stack/issues/788)) ([c2835ec](https://www.github.com/camptocamp/devops-stack/commit/c2835ecaba5ffb02908fa77049cffecb976787e3))
+
 ## [0.48.0](https://www.github.com/camptocamp/devops-stack/compare/v0.47.0...v0.48.0) (2021-09-22)
 
 
